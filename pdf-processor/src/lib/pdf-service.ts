@@ -1,6 +1,6 @@
 import { PDFDocument } from 'pdf-lib'
 import { ProcessingOptions } from '@/types'
-import { connectDB } from './db'
+import connectDB from './db'
 import { PDFFile } from '@/types'
 import JSZip from 'jszip'
 
@@ -48,8 +48,8 @@ export async function processPDF(
       case 'compress':
         return await pdfDoc.save({
           useObjectStreams: true,
-          updateMetadata: false,
-          compress: true
+          addDefaultPage: false,
+          objectsPerTick: 50
         })
       case 'split':
         if (options.settings && 'pageRange' in options.settings) {

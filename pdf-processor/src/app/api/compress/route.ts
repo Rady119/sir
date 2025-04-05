@@ -1,11 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export const config = {
-  api: {
-    bodyParser: false,
-    responseLimit: '50mb',
-  },
-}
+export const runtime = 'nodejs'
+export const dynamic = 'force-dynamic'
+export const maxDuration = 60
 
 // Configure response headers
 const responseHeaders = {

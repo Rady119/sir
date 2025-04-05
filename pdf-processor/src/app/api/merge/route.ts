@@ -67,7 +67,6 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// Set the maximum file size limit (10MB)
-export const runtime = 'edge';
-export const maxDuration = 60; // مدة التنفيذ القصوى (بالثواني)
-export const maxBodySize = '50mb'; // حجم الملف الأقصى
+export const runtime = 'edge'
+export const dynamic = 'force-dynamic'
+export const maxDuration = 60

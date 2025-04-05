@@ -1,9 +1,26 @@
 {
+  "/api/merge/route": "app/api/merge/route.js",
+  "/_not-found": "app/_not-found.js",
   "/page": "app/page.js",
-  "/tools/page": "app/tools/page.js",
   "/about/page": "app/about/page.js",
+  "/blog/page": "app/blog/page.js",
   "/contact/page": "app/contact/page.js",
   "/data-deletion/page": "app/data-deletion/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/tools/page": "app/tools/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/api/data-deletion/route": "app/api/data-deletion/route.js",
+  "/api/pdf/route": "app/api/pdf/route.js",
+  "/auth/signin/page": "app/auth/signin/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
   "/tools/compress/page": "app/tools/compress/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/tools/convert/page": "app/tools/convert/page.js",
+  "/tools/merge/page": "app/tools/merge/page.js",
+  "/api/convert/route": "app/api/convert/route.js",
+  "/api/compress/route": "app/api/compress/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/auth/register/route": "app/api/auth/register/route.js",
+  "/tools/[tool]/page": "app/tools/[tool]/page.js"
 }

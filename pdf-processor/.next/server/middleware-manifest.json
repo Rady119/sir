@@ -1,6 +1,27 @@
 {
   "sortedMiddleware": [],
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/api/merge/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/merge/route.js"
+      ],
+      "name": "app/api/merge/route",
+      "page": "/api/merge/route",
+      "matchers": [
+        {
+          "regexp": "^/api/merge$",
+          "originalSource": "/api/merge"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
   "version": 2
 }
