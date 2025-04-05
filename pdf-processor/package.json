@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -17,6 +16,7 @@
     "@types/sharp": "^0.31.1",
     "autoprefixer": "^10.0.0",
     "axios": "^1.8.2",
+    "bcryptjs": "^3.0.2",
     "convertapi": "^1.15.0",
     "date-fns": "^4.1.0",
     "docx": "^9.2.0",
@@ -40,6 +40,7 @@
     "typescript": "^5.0.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.41.3",
     "@types/pdf-parse": "^1.1.4"
   }
 }
