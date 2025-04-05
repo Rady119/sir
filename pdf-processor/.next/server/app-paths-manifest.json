@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/tools/page": "app/tools/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/data-deletion/page": "app/data-deletion/page.js",
+  "/tools/compress/page": "app/tools/compress/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+}
